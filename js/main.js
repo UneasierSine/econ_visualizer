@@ -12,7 +12,7 @@ The maxYear number will have to be updated each time a new sheet is added until 
 var sheetUrl1 = "https://spreadsheets.google.com/feeds/list/1R8lg8voxZZ9mGaarFjWb8C9bcbEKE_GdE7aJ55ELPkY/"
 var sheetUrl2 = "/public/full?alt=json";
 var sheetUrl = sheetUrl1 + "1" + sheetUrl2;
-var maxYear = 2022;
+var maxYear = 2024;
 
 // Compiles investment name, amount, and GDP growth by formatting them to elements of HTML table row
 function addTd (name, data) {
