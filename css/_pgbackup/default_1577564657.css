@@ -1,0 +1,47 @@
+﻿body {
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    font-family: Helvetica;
+}
+
+#header {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    font-size: 24px;
+    background-color: #1d1d1d;
+    font-family: Helvetica;
+    color: #ffffff;
+}
+
+#table_container {
+    padding: 25px;
+    width: 100%
+}
+
+#overview_table {
+    text-align: center;
+    max-width: 100%;
+}
+
+#year_choice {
+    align-content: center;
+    max-width: 30%;
+}
+
+td.details-control {
+    
+    background: url('plus-solid.svg') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+tr.shown td.details-control {
+    background: url('minus-solid.svg') no-repeat center center;
+    background-size: contain;
+}

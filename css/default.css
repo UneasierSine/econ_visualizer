@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    font-family: Helvetica;
+}
+
+#header {
+    padding: 10px;
+    align-items: center;
+    text-align: left;
+    align-content: center;
+    width: 100%;
+    font-size: 24px;
+    background-color: #1d1d1d;
+    font-family: Helvetica;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: inherit;
+}
+
+#table_container {
+    padding: 25px;
+    width: 100%;
+}
+
+#overview_table {
+    text-align: center;
+    max-width: 100%;
+}
+
+#year_choice {
+    align-content: center;
+    max-width: 30%;
+    font-family: Helvetica;
+    font-style: italic;
+    margin-bottom: 4px;
+    margin-left: -1px;
+}
+
+td.details-control {
+    background: url('plus-solid.svg') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+td {
+    white-space: nowrap;
+    column-width: auto;
+    padding-left:  15px;
+    padding-right: 15px;
+}
+
+tr.shown td.details-control {
+    background: url('minus-solid.svg') no-repeat center center;
+    background-size: contain;
+}

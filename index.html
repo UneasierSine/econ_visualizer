@@ -1,0 +1,44 @@
+ 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Econ Vis</title>
+        <script src="https://kit.fontawesome.com/eb383ca09b.js" crossorigin="anonymous"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
+        <link href="css/default.css" rel="stylesheet"/>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <img src="globe-solid.svg" style="text-align: left; position: absolute; width: 90px; height: 90px; margin-left: 28px; color: white"/>
+            <h2 style="text-align: center; padding-top: 0px;">Discord Nations Economics Visualizer</h2>
+        </div>
+        <div id="table_container" align="center">
+            <select id="year_choice" onselect="changeYear()">
+                <option value="2024" selected>2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+            </select>
+            <table id="overview_table" align="center" border="">
+                <thead>
+                    <tr>
+                        <th width="5%"></th>
+                        <th>Country</th>
+                        <th>ISO</th>
+                        <th>GDP (2022)</th>
+                        <th>Revenue to GDP</th>
+                        <th>Budget</th>
+                        <th>Net GDP Growth</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </body>
+</html>
